@@ -19,8 +19,8 @@ namespace PrometheusSampleApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            var metricServer = new MetricServer(80, "metrics/");
-            metricServer.Start();
+            //var metricServer = new MetricServer(80, "metrics/");
+            //metricServer.Start();
         }
     }
 }
